@@ -1,0 +1,20 @@
+{
+  "name": "module_chunking",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin Barabash <kevinb7@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^5.8.25",
+    "babel-loader": "^5.3.2",
+    "webpack": "^1.12.2"
+  },
+  "dependencies": {
+    "camelcase": "^1.2.1",
+    "random-int": "^1.0.0"
+  }
+}
