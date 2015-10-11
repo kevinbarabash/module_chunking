@@ -5,10 +5,10 @@ webpackJsonp([3],[
 	"use strict";
 
 	var a = __webpack_require__(1);
-	var b = __webpack_require__(2);
-	var c = __webpack_require__(4);
+	var b = __webpack_require__(3);
+	var c = __webpack_require__(2);
 	var d = __webpack_require__(5);
-	var randomInt = __webpack_require__(3);
+	var randomInt = __webpack_require__(4);
 	var camelcase = __webpack_require__(6);
 
 	console.log(a.message);
