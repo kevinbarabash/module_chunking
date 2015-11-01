@@ -1,10 +1,10 @@
-webpackJsonp([1],[
+webpackJsonp([0],[
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
 	__webpack_require__(1);
 	__webpack_require__(3);
-	module.exports = __webpack_require__(4);
+	module.exports = __webpack_require__(5);
 
 
 /***/ },
@@ -22,16 +22,20 @@ webpackJsonp([1],[
 /***/ },
 /* 2 */,
 /* 3 */
-/***/ function(module, exports) {
+/***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
+
+	var esprima = __webpack_require__(4);
+	console.log(esprima);
 
 	module.exports = {
 	    name: "Zaphod Beeblebrox"
 	};
 
 /***/ },
-/* 4 */
+/* 4 */,
+/* 5 */
 /***/ function(module, exports) {
 
 	'use strict';

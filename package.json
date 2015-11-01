@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "camelcase": "^1.2.1",
+    "esprima": "^2.6.0",
     "random-int": "^1.0.0"
   }
 }

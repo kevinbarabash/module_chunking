@@ -6,8 +6,7 @@ var config = {
     entry: {
         main: './src/main.js',
         deps_1: ['./src/a.js', './src/b.js', 'random-int'],
-        deps_2: ['./src/c.js', './src/d.js', 'camelcase'],
-        common: []
+        deps_2: ['./src/c.js', './src/d.js', 'camelcase', 'esprima'],
     },
     output: {
         path: './dist',
@@ -21,7 +20,7 @@ var config = {
         }]
     },
     plugins: [
-        new webpack.optimize.CommonsChunkPlugin({ names: ['deps_1', 'deps_2', 'common'], minChunks: Infinity})
+        new webpack.optimize.CommonsChunkPlugin({ names: ['deps_1', 'deps_2'], minChunks: Infinity})
     ]
 };
 
